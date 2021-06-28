@@ -1,6 +1,7 @@
 body{
     width:65%;
     margin:auto;
+    font-family: 'Castoro', serif;
 }
 
 header {
@@ -42,4 +43,8 @@ section h3 {
 
 #interests{
     background-color: rgba(255, 0, 0, 0.1);
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
