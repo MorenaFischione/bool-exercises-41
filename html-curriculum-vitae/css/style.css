@@ -1,0 +1,45 @@
+body{
+    width:65%;
+    margin:auto;
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+    border-bottom: 5px solid gold;
+}
+
+main {
+    border-top: 5px solid goldenrod;
+    border-bottom: 5px solid goldenrod;
+}
+
+footer {
+    font-size: 10px;
+    text-align: right;
+}
+
+.header-image {
+    width:250px;
+}
+
+section h2 {
+    color: goldenrod;
+}
+
+section h3 {
+    font-style: italic;
+}
+
+
+#experience{
+    background-color: rgba(174, 225, 231, 0.45);
+}
+
+#education{
+    background-color: rgba(175, 176, 255, 0.25);
+}
+
+#interests{
+    background-color: rgba(255, 0, 0, 0.1);
+}
