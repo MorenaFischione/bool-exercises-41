@@ -1,0 +1,75 @@
+header {
+    background-image: url(../img/pattern.png);
+    background-color: rgb(149, 194, 246);
+    height:150px;
+}
+
+h1{
+    font-size: 43.5px;
+    margin-bottom: 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(65, 161, 225);
+    color:white;
+    width: 25%;
+}
+
+.grey-font{
+    color: grey;
+}
+
+.last-column{
+    width: 50%;
+}
+
+.author-blue-name{
+    color: rgb(100, 130, 246);
+}
+.date{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.logo{
+    height: 95px;
+}
+
+.container-left-mg{
+    margin-left: 80px;
+}
+
+.caption{
+    font-size: 13px;
+}
+
+.yellow-highlight{
+    background-color: yellow;
+}
+
+.sky-blue-bg{
+    background-color: rgb(205, 243, 255);
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    color:white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#image-screen{
+    background-image: url(../img/monitor.jpg);
+    margin: 5px 0;
+}
+
+#image-graph{
+    background-image: url(../img/graph.jpg);
+    margin: 5px 0;
+}
+
