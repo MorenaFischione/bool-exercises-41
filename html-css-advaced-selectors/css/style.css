@@ -1,0 +1,101 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5px 5px;
+}
+
+p{
+    color:violet;
+    margin: 10px 10px;
+}
+
+h1 {
+    color: orangered;
+}
+
+h1.title {
+    color:orange;
+}
+
+input[placeholder]{
+    border-color: orchid;
+    border-radius: 5px;
+}
+
+div p{
+    color:goldenrod;
+}
+
+/* NON LO FATE MAI */
+div div p{
+    color:blue;
+}
+
+div > strong {
+    font-size: 5px;
+}
+
+h1 > span.titoletto{
+    color:brown;
+}
+
+ul{
+    margin: 15px 30px;
+}
+
+	
+li:hover {
+    text-decoration: underline; 
+    color: red; 
+}
+
+li:active {
+    text-decoration: underline; 
+    color: gold; 
+}
+
+input:focus {
+    text-decoration: underline; 
+    color: purple; 
+}
+
+li a:visited {
+    text-decoration: underline; 
+    color: teal; 
+}
+
+li a:active {
+    text-decoration: underline; 
+    color: magenta; 
+}
+
+ul li:first-child,
+ul li:last-child {
+    color:mediumturquoise;
+}
+
+ul li:nth-child(odd){
+    color:rgb(217, 255, 0);
+}
+
+ul li:nth-child(even){
+    color:red;
+}
+
+ul li:nth-child(3n+1){
+    color:goldenrod;
+}
+
+.paragrafino::before{
+    content: " Contenuto precedente ";
+}
+
+.paragrafino::after{
+    content: " Contenuto successivo ";
+}
+
