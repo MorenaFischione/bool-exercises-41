@@ -53,15 +53,38 @@ header{
     margin: 15px;
 }
 
+
+.main-container{
+    background-color: rgb(255, 255, 121);
+}
+
+#jumbotron-section{
+    background-image: 
+        /* linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),  */
+        url('https://media1.tenor.com/images/f6fe8d1d0463f4e51b6367bbecf56a3e/tenor.gif');
+
+    background-size: contain;
+}
+
+#jumbotron{
+    color: white;
+    font-size: 3em;
+    background-color: rgba(0,0,0,.2);
+    height: 100%;
+    width: 100%;
+}
+
+#caption-container{
+
+}
+
+
 #footer-container{
     height: 70px;
     background-color: rgb(90, 31, 124);
     margin-top: 20px;
 }
 
-#jumbotron{
-    background-color: rgb(255, 255, 121);
-}
 
 #leadership{
     background-color: rgb(95, 95, 255);
