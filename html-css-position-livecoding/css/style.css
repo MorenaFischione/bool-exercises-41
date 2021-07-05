@@ -4,3 +4,70 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+
+.box-standard{
+    width:250px;
+    height: 250px;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+
+
+.bg-dark-grey{
+    background-color: rgb(95, 95, 95);
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.headline{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: turquoise;
+    background-color: yellow;
+    font-size: 3em;
+}
+
+.relative{
+    position: relative;
+}
+
+.bg-purple.inline-block{
+    left:140px;
+}
+
+#second-relative-example{
+    margin-top: 80px;
+}
+
+h1{
+    padding: 15px;
+    font-size: 3em;
+}
+
+.bg-purple.box-standard{
+    position: absolute;
+    left:50px;
+    top:10px;
+}
