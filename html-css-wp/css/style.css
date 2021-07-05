@@ -12,11 +12,21 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-header{
-    height: 100px;
-    background-color: violet;
+
+nav li{
+    display:inline-block;
+    padding-right: 15px;
+    text-transform: uppercase;   
 }
 
+nav li>a{
+    text-decoration: none;
+    color: gray;
+}
+
+nav{
+    padding-top: 35px;
+}
 
 .clearfix::after{
     content: '';
@@ -25,8 +35,7 @@ header{
 }
 
 .main-container{
-    height: 450px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .float-left{
@@ -34,17 +43,13 @@ header{
 }
 
 .heading{
-    height: 50px;
     margin-bottom: 13px;
-    background-color: lightskyblue;
 }
 
 /* tutte le colonne  */
 .col{
     width: 20%;
-    height: 350px;
     margin: 15px 0;
-    background-color: lightskyblue;
 }
 
 /* colonna */
@@ -54,43 +59,106 @@ header{
 }
 
 
-.main-container{
-    background-color: rgb(255, 255, 121);
+.radius-10{
+    border-radius: 10px;
+}
+
+.heading>h1{
+    font-size: 2.4em;
+}
+
+.grey-color{
+    color:gray;
+}
+
+.img-col{
+    height: 160px;
+    background-size: cover;
+    background-position: center;
 }
 
 #jumbotron-section{
     background-image: 
         /* linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),  */
-        url('https://media1.tenor.com/images/f6fe8d1d0463f4e51b6367bbecf56a3e/tenor.gif');
-
-    background-size: contain;
+        url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #jumbotron{
     color: white;
-    font-size: 3em;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.24);
     height: 100%;
     width: 100%;
-}
-
-#caption-container{
-
 }
 
 
 #footer-container{
     height: 70px;
-    background-color: rgb(90, 31, 124);
     margin-top: 20px;
 }
 
 
 #leadership{
-    background-color: rgb(95, 95, 255);
     margin-bottom: 20px;
 }
 
-li{
-    display:inline-block;
+
+#logo{
+    margin-top: 10px;
 }
+
+#logo img{
+    height: 70px;
+}
+
+#caption-container{
+    width: 66%;
+    padding: 275px 0 50px 40px;
+
+}
+
+#caption-container h2{
+    font-size: 2.15em;
+    font-weight: 400;
+}
+
+#img-money-tree{
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+        url(../img/img-1.jpg);
+}
+
+#img-coffee-worker{
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),    
+        url(../img/banner-2.jpg);
+    background-repeat: no-repeat;
+}
+
+#img-giant-bulb{
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+        url(../img/img-3.jpg);
+}
+
+/* Selezione multipla di tutti i contenuti delle colonne */
+div.col.float-left p{
+    font-size: .78em;
+}
+
+#footer-container>p{
+    font-size: .8em;
+    text-align: center;
+}
+
+#footer-container span.color-red{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.color-red{
+    color:red
+}
+
+
