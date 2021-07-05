@@ -1,0 +1,44 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 40px;
+}
+
+.product{
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+}
+
+.thirty-percent{
+    background-color: green;
+}
+
+.five-percent{
+    background-color: red;
+}
+
+.heart{
+    font-size: 3em;
+    color: red;
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left:150px;
+    z-index: 4;
+}
+
+.product:hover .heart{
+    display: inline-block;
+}
+
+.discount{
+    position: absolute;
+    right:0;
+    z-index: 2;
+}
