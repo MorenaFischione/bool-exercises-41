@@ -1,0 +1,52 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 50%;
+}
+
+.suggestions{
+    display:inline-block;
+    vertical-align: middle;
+    height: 70vh;
+    width: 26.5vw;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.suggestion-item.clearfix img,
+.suggestion-item.clearfix div{
+    float:left;
+}
+
+.caption{
+    width: 45%;
+}
+
+#player{
+    height: 70vh;
+    width: 70vw;
+    background-image: url(https://i.ytimg.com/vi/roS6oFjCDhc/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: darkseagreen;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#wrapper{
+    border: 5px solid black;
+}
