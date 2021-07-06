@@ -51,10 +51,25 @@ article{
     height:100vh;
 }
 
+
+
 aside{
     background-color: rgb(210, 255, 253);
     height: 50vh; /* 50/100 dell'altezza del viewport */
 }
+
+#first-article{
+    background-color: darkseagreen;
+}
+
+#second-article{
+    background-color: yellow;
+}
+
+#third-article{
+    background-color: seagreen;
+}
+
 
 #main-logo{
     vertical-align: middle;
