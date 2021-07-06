@@ -4,3 +4,84 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: lightblue;
+    min-width: 1215px;
+}
+
+header>h1{
+    margin: 30px auto;
+    font-size: 7em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0,0,0,0.5);
+}
+
+
+footer{
+    margin: 25px 0;
+    text-align: center;
+
+}
+
+img,
+main .card-text {
+    display: none;
+}
+
+
+.deck-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.single-card{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+
+    height: 250px;
+    width: 215px;
+
+    margin : 10px;
+    padding: 20px 20px 40px;
+
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: white;  
+    
+    box-shadow: 1.5px 1.5px 1.5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main .single-card:hover .card-text,
+main .single-card:active .card-text
+{
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+
+    font-size: 2em;
+    font-weight: 800;
+    color: magenta;
+}
+
+main .single-card:hover img{
+    display: inline-block;
+    width: 100%;
+}
+
+main .single-card:hover,
+main .single-card:active
+{
+    background-image: none;
+}
