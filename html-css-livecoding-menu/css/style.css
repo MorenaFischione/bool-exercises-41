@@ -1,0 +1,72 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    min-height: 80px;
+    position: fixed;
+}
+
+header li,
+nav{
+    display: inline-block;
+}
+
+nav{
+    padding-top: 4vh;
+}
+
+header li{
+    padding-left: 1.5vh;
+}
+
+header li a{
+    text-decoration: none;
+
+}
+
+main{
+    /* margin-top: 5vh; */
+    padding-top: 10vh;
+    background-color: rgb(230, 249, 255);
+}
+
+main p{
+    padding: 5vh;
+}
+
+article{
+    background-color: rgb(255, 205, 205);
+    height:100vh;
+}
+
+aside{
+    background-color: rgb(210, 255, 253);
+    height: 50vh; /* 50/100 dell'altezza del viewport */
+}
+
+#main-logo{
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url(https://www.boolean.careers/images/misc/logo.png);
+    width: 130px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#main-logo:hover{
+    border-bottom: 4px dotted darkviolet;
+}
