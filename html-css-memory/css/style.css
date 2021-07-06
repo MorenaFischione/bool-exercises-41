@@ -62,7 +62,7 @@ main .card-text {
 }
 
 main .single-card:hover .card-text,
-main .single-card:active .card-text
+main .single-card.active .card-text
 {
     display: inline-block;
     position: absolute;
@@ -75,13 +75,14 @@ main .single-card:active .card-text
     color: magenta;
 }
 
-main .single-card:hover img{
+main .single-card:hover img,
+main .single-card.active img{
     display: inline-block;
     width: 100%;
 }
 
 main .single-card:hover,
-main .single-card:active
+main .single-card.active
 {
     background-image: none;
 }
