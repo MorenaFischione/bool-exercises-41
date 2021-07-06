@@ -58,6 +58,10 @@ aside{
     height: 50vh; /* 50/100 dell'altezza del viewport */
 }
 
+h1{
+    padding-top: 10vh;
+}
+
 #first-article{
     background-color: darkseagreen;
 }
